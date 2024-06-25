@@ -27,6 +27,9 @@ public class HomePage {
 	
 	@FindBy(xpath = "//a[contains(text(),'Sign Out') and @class='drop_down_usersettings']")
 	private WebElement signoutBtnEdt;
+	
+	@FindBy(linkText = "Products")
+	private WebElement productsLink;
 
 	//step-3 Object Initialization
 	WebDriver driver;
